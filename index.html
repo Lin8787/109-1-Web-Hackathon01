@@ -10,9 +10,11 @@
     <body class="Theme-black">
         <h1>My Calendar</h1>
         <div>
+	<label for="cal-input"></label>
             <input type="text" placeholder="Type something..." id="cal-input"></input>
             <input type="color" id="cal-color"></input>
             <button id="cal-button">Add to Calendar</button>
+		<p id="demo"></>
         </div>
         <div>
             <table id='Cal-main'>
@@ -26,7 +28,8 @@
                   <td>Saturday</td>
                 </tr>
                 <tr class="Cal-content-row">
-                  <td class='date'>4</td>
+                  <td class='date' onclick="click()">4
+		  </td>
                   <td class='date'>5</td>
                   <td class='date'>6</td>
                   <td class='date'>7</td>
@@ -42,6 +45,24 @@
                     <td class='date'>15</td>
                     <td class='date'>16</td>
                     <td class='date'>17</td>
+                </tr>
+		<tr class="Cal-content-row">
+		  <td class='date'>18</td>
+                  <td class='date'>19</td>
+                  <td class='date'>20</td>
+                  <td class='date'>21</td>
+                  <td class='date'>22</td>
+                  <td class='date'>23</td>
+                  <td class='date'>24</td>
+                </tr>
+		<tr class="Cal-content-row">
+                  <td class='date'>18</td>
+                  <td class='date'>19</td>
+                  <td class='date'>20</td>
+                  <td class='date'>21</td>
+                  <td class='date'>22</td>
+                  <td class='date'>23</td>
+                  <td class='date'>24</td>
                 </tr>
               </table>
         </div>

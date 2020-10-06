@@ -59,13 +59,27 @@ body > h1{
 .Cal-content-row > * {
     height: 15vh;
     padding: 2vh;
+}
+#hov:hover{
+    opacity: 0.5;
 } 
-
+#dateback:{
+    height: 15vh;
+    padding: 2vh;
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
 .date{
     text-align: top;
     vertical-align: top;
+} 
+.date:hover{
+    background-color: rgba(0, 0, 0, 0.103);
+    opacity: 0.5;    
 }
-
+	
 /*****************Themes*****************/
 .Theme-black {
     --main: black;
